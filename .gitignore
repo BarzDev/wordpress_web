@@ -1,0 +1,52 @@
+# WordPress Core Files (ignore)
+wp-admin/
+wp-includes/
+
+# Environment Files
+.env
+.env.local
+.env.*
+
+# Composer & Node
+/vendor/
+/node_modules/
+
+# OS/System Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.idea/
+.vscode/
+
+# Logs & Cache
+*.log
+*.cache
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/uploads/backwpup-*
+
+# WordPress Uploads (optional, kalau tidak mau sync media file)
+# wp-content/uploads/
+
+# Sensitive Config Files
+wp-config.php
+wp-config-sample.php
+.htaccess
+web.config
+
+# Backup Files
+*.sql
+*.tar.gz
+*.zip
+
+# Elementor Cache (optional)
+elementor-cache/
+
+# SASS / Build Files
+*.map
+
+# Other Custom Exclusions
+# wp-content/mu-plugins/
+# wp-content/advanced-cache.php
